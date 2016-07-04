@@ -1,6 +1,6 @@
 {
   "name": "jquery.mloading.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "为jquery element增加loading遮罩效果",
   "main": "src/jquery.mloading.js",
   "scripts": {

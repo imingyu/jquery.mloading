@@ -6,7 +6,7 @@
 
 使用方法
 ------
-将jquery.mloading.js引入到页面，调用：
+将jquery.mloading.js和jquery.mloading.css引入到页面，调用：
 ```
 $(element).mloading({
     text:"",//加载文字，默认值：加载中...
