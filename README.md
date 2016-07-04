@@ -2,6 +2,8 @@
 为jquery element增加loading遮罩效果，jquery.watercolor.js简易版
 
 
+![image](https://github.com/imingyu/jquery.mloading/blob/master/preview.png)
+
 使用方法
 ------
 将jquery.mloading.js引入到页面，调用：
