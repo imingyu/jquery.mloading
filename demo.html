@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mloading demo</title>
+    <link rel="stylesheet" href="src/jquery.mloading.css">
+</head>
+<body>
+    <button type="button">遮罩页面</button>
+
+
+    <script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="src/jquery.mloading.js"></script>
+    <script>
+        $(function(){
+            $("button").click(function(){
+                $("body").mLoading({
+                    mask:true,
+                    text:"哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈很好的返回个电饭锅电饭锅的风格的风格大方对符合法规和覆盖恢复供货法规和法国恢复规划法规和法规和法国 法规和法国"
+                });
+            });
+        });
+    </script>
+</body>
+</html>
