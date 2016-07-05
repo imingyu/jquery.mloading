@@ -1,3 +1,8 @@
+/* Author：mingyuhisoft@163.com
+ * Github:https://github.com/imingyu/jquery.mloading
+ * Date：2016-7-4
+ */
+
 ;(function (factory) {
     'use strict';
 
