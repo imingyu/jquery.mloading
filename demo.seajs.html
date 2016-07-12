@@ -8,11 +8,14 @@
 <body>
     <button type="button" id="btnTest">遮罩页面</button>
 
-
-    <script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script src="src/jquery.mloading.js"></script>
+    <script src="http://cdn.bootcss.com/seajs/3.0.2/sea.js"></script>
     <script>
-        $(function(){
+        seajs.config({
+            alias:{
+                'jquery':"http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"
+            }
+        });
+        seajs.use(['./src/jquery.mloading'],function(){
             $("#btnTest").click(function(){
                 $("body").mLoading();
             });

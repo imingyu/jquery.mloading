@@ -4,16 +4,33 @@
  * Date：2016-7-4
  */
 
-;(function (factory) {
+;(function (root, factory) {
     'use strict';
 
     if (typeof module === 'object' && typeof module.exports === 'object') {
-        factory(require('jquery'), window, document);
-    } else {
-        factory(jQuery, window, document);
+        factory(require('jquery'),root);
+    } if(typeof define ==="function"){
+        if(define.cmd){
+            define(function(require, exports, module){
+                var $ = require("jquery");
+                factory($,root);
+            });
+        }else{
+            define(["jquery"],function($){
+                factory($,root);
+            });
+        }
+    }else {
+        factory(root.jQuery,root);
     }
-} (function ($, window, document, undefined) {
+} (typeof window !=="undefined" ? window : this, function ($, root, undefined) {
     'use strict';
+    if(!$){
+        $ = root.jQuery || null;
+    }
+    if(!$){
+        throw new TypeError("必须引入jquery库方可正常使用！");
+    }
 
     var arraySlice = Array.prototype.slice,
         comparison=function (obj1,obj2) {

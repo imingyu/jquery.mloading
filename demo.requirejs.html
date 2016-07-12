@@ -8,11 +8,16 @@
 <body>
     <button type="button" id="btnTest">遮罩页面</button>
 
-
-    <script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script src="src/jquery.mloading.js"></script>
+    <script src="http://cdn.bootcss.com/require.js/2.2.0/require.js"></script>
     <script>
-        $(function(){
+        requirejs.config({
+            paths:{
+                'jquery':"http://cdn.bootcss.com/jquery/1.12.4/jquery.min",
+                'jquery-mloading':"src/jquery.mloading"
+            }
+        });
+
+        require(["jquery","jquery-mloading"],function($){
             $("#btnTest").click(function(){
                 $("body").mLoading();
             });
