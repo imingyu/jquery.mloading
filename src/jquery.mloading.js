@@ -1,5 +1,6 @@
 /* Author：mingyuhisoft@163.com
  * Github:https://github.com/imingyu/jquery.mloading
+ * Npm:npm install jquery.mloading.js
  * Date：2016-7-4
  */
 
@@ -120,8 +121,8 @@
                 barElement=this.barElement;
             this.curtainElement.addClass("active");
             barElement.css({
-                marginTop:"-"+barElement.outerHeight()/2+"px",
-                marginLeft:"-"+barElement.outerWidth()/2+"px",
+                "marginTop":"-"+barElement.outerHeight()/2+"px",
+                "marginLeft":"-"+barElement.outerWidth()/2+"px"
             });
 
             return this;
