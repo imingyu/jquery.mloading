@@ -1,6 +1,7 @@
 # jquery.mloading
 为jquery element增加loading遮罩效果，jquery.watercolor.js简易版
-
+[![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)](https://www.npmjs.com/package/jquery.mloading.js)
+[![npm](https://img.shields.io/npm/dt/express.svg?maxAge=2592000)](https://www.npmjs.com/package/jquery.mloading.js)
 
 ![image](https://segmentfault.com/img/bVyRN0)
 
@@ -8,7 +9,7 @@
 ------
 将jquery.mloading.js和jquery.mloading.css引入到页面，调用：
 ```
-$(element).mloading({
+$(element).mLoading({
     text:"",//加载文字，默认值：加载中...
     icon:"",//加载图标，默认值：一个小型的base64的gif图片
     html:false,//设置加载内容是否是html格式，默认值是false
@@ -18,5 +19,5 @@ $(element).mloading({
 ```
 
 方法：
-- ```$(element).mloading("show");//显示loading组件 ```
-- ```$(element).mloading("hide");//隐藏loading组件 ```
+- ```$(element).mLoading("show");//显示loading组件 ```
+- ```$(element).mLoading("hide");//隐藏loading组件 ```
