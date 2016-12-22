@@ -1,7 +1,9 @@
 # jquery.mloading
 为jquery element增加loading遮罩效果，jquery.watercolor.js简易版
 
-[![NPM](https://nodei.co/npm/jquery.mloading.js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jquery.mloading.js/) 
+![image](https://img.shields.io/npm/l/jquery.mloading.js.svg)
+[![image](https://img.shields.io/npm/v/jquery.mloading.js.svg)](https://www.npmjs.com/package/jquery.mloading.js)
+[![image](https://img.shields.io/npm/dt/jquery.mloading.js.svg)](https://www.npmjs.com/package/jquery.mloading.js)
 
 ![image](https://segmentfault.com/img/bVyRN0)
 
